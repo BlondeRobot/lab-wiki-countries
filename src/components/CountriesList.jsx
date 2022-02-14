@@ -8,8 +8,8 @@ export default function CountriesList(props) {
 
         {props.countries.map((country) => (
           <Link
-            to={`/${country.alpha3code}`}
-            key={country.alpha3code}
+            to={`/${country.alpha3Code}`}
+            key={country.alpha3Code}
           >
             {country.name.common}
           </Link>
